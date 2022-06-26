@@ -1,0 +1,126 @@
+@media(max-width: 420px) {
+	header #my-logo {
+		float: none;
+		text-align: center;
+		padding: 0;
+		background-color: #000;
+	}
+
+	header nav, header nav ul li {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	header nav ul li a {
+		display: block;
+	}
+    
+    section#home-content {
+    	background-image: unset;
+    }
+
+	section #showcase {
+		float: none;
+		color: #000;
+		width: 100%;
+		margin: 10% auto;
+		background-color: unset;
+		overflow: hidden;
+	}
+
+	section #showcase h1 {
+		font-size: 10vw;
+	}
+
+	section#social {
+		display: block;
+		margin: 15% 0;
+		width: 100%;
+		background-color: #333;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+
+	section .social-icon img {
+		margin: 5%;
+	}
+
+	section#social h2 {
+		padding: 7px;
+		border-radius: 0;
+		border: none;
+	}
+
+	section .social-icon a img:hover {
+		border: 3px solid #fff;
+	}
+
+	/*..................Gallery....................*/
+	article#gallery-row {
+		width: 100%;
+		float: none;
+		margin: 20px auto;
+		border-radius: 0;
+		border: none;
+	}
+	/*.................Map.................*/
+	article#oromia-map {
+		float: none;
+		width: 97%;
+		margin: 15px 0;
+	} 
+    article#oromia-map:not(:last-child) {
+    	margin-bottom: 60px;
+    }
+	article#oromia-map h1 {
+		font-size: 18px;
+	}
+	/*..............About.............*/
+	section#about-page-content {
+		background-image: url('../images/24.jpg');
+		background-size: cover;
+		background-position: center;
+		}
+	article#about-general, article#about-sidebar {
+		width: 97%;
+		float: none;
+		margin: 20px 0;
+		height: auto;
+		padding: 0;
+	}
+
+	article#about-sidebar h3 {
+		font-size: 20px;
+		text-align: center;
+		margin: auto;
+	}
+
+	article#about-sidebar img#info1 {
+		width: 7%;
+	}
+
+	article#about-sidebar img#info11 {
+		width: 10%;
+	}
+
+	article#about-sidebar img#dev-img {
+		width: 90%;
+		float: none;
+		display: block;
+		margin: 15px auto;
+	}
+
+	/*............Contact..............*/
+	section#contact-page {
+		background-image: url('../images/25.jpg');
+		background-size: cover;
+		background-position: center;
+	}
+
+	article#contact-page-content {
+		width: 100%;
+		margin: 20px auto;
+	}
+
+}
